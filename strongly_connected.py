@@ -1,10 +1,8 @@
 # python 3
 
 import sys
-import threading
 
 sys.setrecursionlimit(10**7) # max depth of recursion
-threading.stack_size(2**25)  # new thread will get stack of such size
 
 
 def explore(vertex, graph, visited):
@@ -52,7 +50,7 @@ def number_of_SCC(n, reverse_graph, graph):
     return n_SCC
 
 
-def main():
+if __name__ == '__main__':
     global clock
     n_vertices, n_edges = map(int, input().split())
     edges = [[] for _ in range(n_vertices + 1)]
@@ -65,5 +63,3 @@ def main():
     n_SCC = number_of_SCC(n_vertices, reverse_edges, edges)
     print(n_SCC)
 
-
-threading.Thread(target=main).start()
