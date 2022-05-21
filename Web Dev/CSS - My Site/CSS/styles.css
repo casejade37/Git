@@ -1,0 +1,79 @@
+body {
+  color: #ffe390;
+  text-align: center;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+h1 {
+  width: 10%;
+  margin: 50px auto 0 auto;
+  /* top right bottom left  */
+  /* margin: 0 auto 0 auto; */
+  font-size: 4em; /* 16px == 1em == 100%, em is inheritable, can use rem  */
+}
+
+h2 {
+  color: #f8fdc3;
+  font-family: fantasy;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+div {
+  background-color: #fddf97;
+}
+
+hr {
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 2px;
+  margin: 100;
+}
+
+.top-container {
+  background-color: #f8fdc3;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-container {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+}
+
+.pro {
+  text-decoration: underline;
+  margin: auto;
+  width: 30%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 800px;
+  bottom: 300px;
+}
+/*
+.mount {
+  position: relative;
+} */
+.top-cloud {
+  position: absolute;
+  right: 800px;
+  top: 50px;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: lightgreen;
+}

@@ -1,0 +1,34 @@
+/* tag */
+  body {
+    background-color: #D3E4CD;
+  }
+
+  hr {
+    background-color: white;
+    border-style: dotted none none;
+    width: 50%;
+    border-color: grey;
+    border-width: 6px;
+  }
+
+  h1 {
+    color: red;
+  }
+
+  h3 {
+    color: #66BFBF;
+  }
+
+/* class */
+.photo {
+   background-color: red;
+ }
+
+/* id */
+ #heading {
+   color: blue;
+ }
+/* pseudo class */
+img:hover {
+  background-color: black;
+}
