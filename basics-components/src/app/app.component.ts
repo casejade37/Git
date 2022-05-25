@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
     h3 {
       color: dodgerblue;
     }
-  `]
-})
-export class AppComponent {
+    `]
+  })
+  export class AppComponent {
 }
