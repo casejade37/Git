@@ -7,3 +7,4 @@ Education Purposes:
     c. Plotly and Dash
 3. Postgres
 4. BU CS Courses
+5. React
